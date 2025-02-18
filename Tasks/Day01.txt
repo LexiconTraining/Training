@@ -1,0 +1,5 @@
+1) What is JavaScript?
+2) History & Evolution (ECMAScript)
+3) Role of JavaScript in Web Development
+4) Difference between JavaScript vs TypeScript vs other programming languages.
+5) How JavaScript runs (Browser vs. Node.js)

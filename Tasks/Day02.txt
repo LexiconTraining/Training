@@ -1,0 +1,62 @@
+1) Var let const in hoisting 
+2) Data types 
+3) Type conversion in JS
+4) Hoisting - variable and function
+
+
+
+1. Swap two variables
+ 
+2. Calculate the area of a rectangle.
+ 
+3. 
+
+1). Create variables of different data types:
+ 
+I - Declare variables for String, Number, Boolean, Null, Undefined, Object, and Array.
+
+II - Use console.log(typeof variableName); to check their types. [observe their behaviour with reason.]
+ 
+ 
+2).
+let name1 = "Pratiksha";
+
+let name2 = name1; 
+
+name2 = "Bhavana";
+
+console.log(name1); 
+
+console.log(name2);
+ 
+ 
+ 
+let obj1 = { name: "Pratiksha" };
+
+let obj2 = obj1; 
+
+obj2.name = "Bhavana";
+ 
+console.log(obj1.name);
+
+console.log(obj2.name);
+ 
+ 
+Run both the above code, and check differnces between them and prepare with reason.
+ 
+ 
+ 
+4. Type coercion
+ 
+console.log("5" + 3);
+
+console.log("5" - 3);
+
+console.log(10 + " apples");
+
+console.log(10 * "2");
+
+console.log(true + false);
+ 
+do try above code and do prepare with output and valid reason behind it. (Try more combinations like this.)
+ 
