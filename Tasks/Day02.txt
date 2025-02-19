@@ -42,7 +42,7 @@ console.log(obj1.name);
 console.log(obj2.name);
  
  
-Run both the above code, and check differnces between them and prepare with reason.
+Run both the above code, and check differences between them and prepare with reason.
  
  
  

@@ -1,14 +1,15 @@
+"use strict";
 // This function runs in the user's browser, executing on the client side.
 
-// function client_side(){
-//     let arr = [1,2,3,4,5];
-//     for(let i = 0; i<arr.length; i++){
-//         console.log(arr[i]);
-//     }
-// }
-// client_side();
+let arr = [1,2,3,4,5];
+function client_side(){
+    for(let i = 0; i<arr.length; i++){
+        console.log(arr[i]);
+    }
+}
+//client_side();
 
-let navBar = [
+let navBarItems = [
             {"Home":"#home"}, 
             {"Features":"#features"}, 
             {"UseCases":"#usecases"},
@@ -16,23 +17,11 @@ let navBar = [
             {"Gallery":"#gallery"},
             {"Tutorials":"#tutorials"}];
 
-// navBar.map((nav) => {
-//     return(console.log(nav));
-// })
-
 
 let navbar = document.getElementById("navbar");
 
-// let li1 = document.createElement("li");
-// let li2 = document.createElement("li");
-// let an1 = document.createElement("a");
-//let div_tag = document.createElement("div");
-
-
-//an1.appendChild(div_tag);
-
-navBar.map((item) => {
-    let li2 = document.createElement("li");
+navBarItems.map((item) => {
+    let li1 = document.createElement("li");
     let an1 = document.createElement("a");
 
     let itemKey = Object.keys(item)[0];
@@ -41,6 +30,6 @@ navBar.map((item) => {
     an1.href = itemValue;
     an1.textContent = itemKey;
 
-    navbar.appendChild(li2);
-    li2.appendChild(an1);
+    navbar.appendChild(li1);
+    li1.appendChild(an1);
 })
