@@ -1,4 +1,4 @@
-"use-strict";
+"use strict";
 
 const minNumber = 1;
 const maxNumber = 10;
@@ -18,7 +18,7 @@ function guessNumber(guess){
     else{
         attemptLeft --;
         if(guess == randomNumber){
-            feedback = "youve guessed right number";
+            feedback = "you've guessed right number";
         }
         else if(guess < randomNumber){
             feedback = "too low";
@@ -34,7 +34,7 @@ function guessNumber(guess){
     console.log(feedback);
     console.log("Attempt left : "+attemptLeft);
 }
-guessNumber(1);
+// guessNumber(1);
 // guessNumber(2);
 // guessNumber(3);
 // guessNumber(4);
@@ -42,3 +42,9 @@ guessNumber(1);
 // guessNumber(6);
 // guessNumber(7);
 //console.log(Math.floor(1.55));
+
+const guesses = [1, 2, 3, 4, 5, 6, 7];
+
+for (const guess of guesses) {
+    guessNumber(guess);
+}

@@ -1,8 +1,11 @@
-1) Var let const in hoisting 
-2) Data types 
+1) Var, let, const variables
+2) Data types  
 3) Type conversion in JS
 4) Hoisting - variable and function
-
+5) Swap two variables
+6) Calculate the area of a rectangle
+7) Create Variable of different data types
+8) Type coercion
 
 
 1. Swap two variables
@@ -59,4 +62,3 @@ console.log(10 * "2");
 console.log(true + false);
  
 do try above code and do prepare with output and valid reason behind it. (Try more combinations like this.)
- 

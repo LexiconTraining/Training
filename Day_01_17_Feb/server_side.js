@@ -1,7 +1,6 @@
 "use strict";
 //ACCESING API USING GET METHOD
 
-
 //This function fetches the data from an API 
 async function getServerData() {
         let response = await fetch("https://dummyjson.com/products");

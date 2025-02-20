@@ -1,0 +1,35 @@
+1) Do Read about  Arithmetic, Comparison, Logical, Assignment Operators with some poc.
+
+1. Create a simple calculator in JavaScript that:
+Takes two numbers as input from the user.
+Performs addition (+), subtraction (-), multiplication (*), division (/), and modulus (%).
+Displays the results in the console.
+
+2.Write a function that:
+Takes two numbers as input from the user.
+Uses comparison operators (>, <, >=, <=, ==, ===, !=, !==) to compare them.
+Uses logical operators (&&, ||, !) to evaluate conditions.
+Displays the results in the console.
+
+(Optional)
+Modify the calculator to take user input for the operation (+, -, *, /, %).
+Use if-else statements to perform the chosen operation.
+
+
+
+// let x = 3;
+// let y = x++ + ++x;
+// console.log(y);
+
+/*
+let a = 1;
+if (a++ > 1) {
+    console.log("True");
+} else {
+    console.log("False");
+}*/
+
+
+let m = 1, n = 1;
+let res = m++ && ++n;
+console.log(m, n, res);
