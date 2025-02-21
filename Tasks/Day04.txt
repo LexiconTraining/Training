@@ -2,3 +2,30 @@ if
 else
 switch
 ternary operator
+
+
+
+
+1.Write a JavaScript program that takes a number and determines if it is even or odd using: [if-else, ternary-operator]
+ 
+     
+2.Write a program that takes a number (1-7) and prints the corresponding day of the week using: 
+      if-else , using switch
+      I/p - 1   o/p- sunday
+      I/p- 2    o/p - monday 
+ 
+      
+3. Write a JavaScript program that takes three numbers  and determines the largest number using:                       
+[if-else, ternary-operator]
+ 
+     
+4. Write a program that takes marks  and assigns grades based on the following conditions:
+90-100 → A
+80-89 → B
+70-79 → C
+60-69 → D
+Below 60 → F
+do it using if-else and switch.
+
+
+remove prompt

@@ -33,3 +33,6 @@ if (a++ > 1) {
 let m = 1, n = 1;
 let res = m++ && ++n;
 console.log(m, n, res);
+
+console.log(3>2>1);
+false why?
